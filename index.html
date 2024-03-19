@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Number Guess Application </h1>
+        <h2>Select a number between 1 to 100 and Guess it!!!</h2>
+        <label>Guess a number </label>
+        <input type="number"name="number" id="n1" placeholder="enter the number">
+        <h3 id="res">Wait for the Result!!!</h3>
+
+        <h3> Number of tries:<span id="tries">0</span></h3>
+        <div class="sub" >
+                <input type="submit" value="check" onclick="findnumber()">
+                <input type="submit" value="reset" onclick="window.location.reload()">
+        </div>
+    </div>
+    <script src="./desgin.js"></script>
+</body>
+</html>
